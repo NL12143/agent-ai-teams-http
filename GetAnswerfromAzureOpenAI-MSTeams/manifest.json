@@ -1,1 +1,54 @@
-{"schema":"1.0","details":{"displayName":"Get answer from Azure Open AI - MS Teams","description":"","createdTime":"2023-02-21T01:07:29.8689398Z","packageTelemetryId":"f56dc067-71b0-4504-9476-5382ade6e7d5","creator":"N/A","sourceEnvironment":""},"resources":{"9be81c94-d3b2-40fe-81a3-10c0b0557b62":{"type":"Microsoft.Flow/flows","suggestedCreationType":"New","creationType":"Existing, New, Update","details":{"displayName":"Get answer from Azure Open AI - Error Handling"},"configurableBy":"User","hierarchy":"Root","dependsOn":["c25169de-3ad1-49c7-bc03-f8f6ff34a1e6","ed9c50b3-3840-4161-bc1f-c431dd165699"]},"c25169de-3ad1-49c7-bc03-f8f6ff34a1e6":{"id":"/providers/Microsoft.PowerApps/apis/shared_teams","name":"shared_teams","type":"Microsoft.PowerApps/apis","suggestedCreationType":"Existing","details":{"displayName":"Microsoft Teams","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1619/1.0.1619.3185/teams/icon.png"},"configurableBy":"System","hierarchy":"Child","dependsOn":[]},"ed9c50b3-3840-4161-bc1f-c431dd165699":{"type":"Microsoft.PowerApps/apis/connections","suggestedCreationType":"Existing","creationType":"Existing","details":{"displayName":"bot@cleverpointlab.onmicrosoft.com","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1619/1.0.1619.3185/teams/icon.png"},"configurableBy":"User","hierarchy":"Child","dependsOn":["c25169de-3ad1-49c7-bc03-f8f6ff34a1e6"]}}}
+{
+    "schema": "1.0",
+    "details": {
+        "displayName": "Get answer from Azure Open AI - MS Teams",
+        "description": "",
+        "createdTime": "2023-02-21T01:07:29.8689398Z",
+        "packageTelemetryId": "f56dc067-71b0-4504-9476-5382ade6e7d5",
+        "creator": "N/A",
+        "sourceEnvironment": ""
+    },
+    "resources": {
+        "9be81c94-d3b2-40fe-81a3-10c0b0557b62": {
+            "type": "Microsoft.Flow/flows",
+            "suggestedCreationType": "New",
+            "creationType": "Existing, New, Update",
+            "details": {
+                "displayName": "Get answer from Azure Open AI - Error Handling"
+            },
+            "configurableBy": "User",
+            "hierarchy": "Root",
+            "dependsOn": [
+                "c25169de-3ad1-49c7-bc03-f8f6ff34a1e6",
+                "ed9c50b3-3840-4161-bc1f-c431dd165699"
+            ]
+        },
+        "c25169de-3ad1-49c7-bc03-f8f6ff34a1e6": {
+            "id": "/providers/Microsoft.PowerApps/apis/shared_teams",
+            "name": "shared_teams",
+            "type": "Microsoft.PowerApps/apis",
+            "suggestedCreationType": "Existing",
+            "details": {
+                "displayName": "Microsoft Teams",
+                "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1619/1.0.1619.3185/teams/icon.png"
+            },
+            "configurableBy": "System",
+            "hierarchy": "Child",
+            "dependsOn": []
+        },
+        "ed9c50b3-3840-4161-bc1f-c431dd165699": {
+            "type": "Microsoft.PowerApps/apis/connections",
+            "suggestedCreationType": "Existing",
+            "creationType": "Existing",
+            "details": {
+                "displayName": "bot@cleverpointlab.onmicrosoft.com",
+                "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1619/1.0.1619.3185/teams/icon.png"
+            },
+            "configurableBy": "User",
+            "hierarchy": "Child",
+            "dependsOn": [
+                "c25169de-3ad1-49c7-bc03-f8f6ff34a1e6"
+            ]
+        }
+    }
+}
