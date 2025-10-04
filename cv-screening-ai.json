@@ -4,7 +4,8 @@
   },
 "source": {
   "url": "https://n8n.io/workflows/7456-automate-cv-screening-with-ai-candidate-analysis/",
-  "code": n8n, "author": "Lucas Peyrin"
+  "code": n8n, 
+  "author": "Lucas Peyrin"
 },  
  "nodes": [
     {
